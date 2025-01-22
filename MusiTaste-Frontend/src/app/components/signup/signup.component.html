@@ -1,0 +1,14 @@
+<div class="input-group mb-3 username-input" [formGroup]="signupForm" [ngClass]="{'has-error': this.userInputError}">
+    <i class="fa-solid fa-user user-icon fa-xl"></i>
+    <input type="text" class="form-control" placeholder="Username" formControlName="username">
+</div>
+<div class="input-group mb-3 password-input" [formGroup]="signupForm" [ngClass]="{'has-error': this.passwordInputError}">
+    <i class="fa-solid fa-lock password-icon fa-xl"></i>
+    <input type="password" class="form-control" placeholder="Password" formControlName="password">
+</div>
+<div class="button-wrapper">
+    <button (click)="signup()" class="signup-button btn">Sign up</button>
+</div>
+<div class="show-error-wrapper" *ngFor="let e of this.global.signupErrors">
+    <p class="error-text"><i class="fa-solid fa-triangle-exclamation fa-sm"></i> {{e}}</p>
+</div>

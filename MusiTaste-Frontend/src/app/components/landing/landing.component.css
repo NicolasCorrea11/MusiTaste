@@ -1,0 +1,104 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: linear-gradient(to right, black 10%, #adff2f);
+    height: 100vh;
+}
+.not-signup {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-self: center;
+    align-self: center;
+}
+
+.main-text {
+    grid-column: 1;
+    width: 400px;
+    justify-self: center;
+    align-self: center;
+}
+
+.main-text-h1 {
+    color: white;
+}
+
+.main-text-h4 {
+    color: white;
+}
+
+.yes-signup {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-self: center;
+    align-self: center;
+}
+
+.container {
+    grid-column: 1;
+    justify-self: center;
+    align-self: center;
+    border: 5px black solid;
+    border-radius: 8px;
+    width: 350px;
+    height: auto;
+}
+
+.login-container {
+    border-bottom: 3px solid black;
+    padding-bottom: 20px;
+}
+.login-text-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 3px solid black;
+}
+.login-top-text {
+    grid-column: 2;
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    justify-self: center;
+    align-self: center;
+}
+
+.signup-container {
+    padding-bottom: 20px;
+}
+.signup-text-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 3px solid black;
+}
+.signup-top-text {
+    grid-column: 2;
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    justify-self: center;
+    align-self: center;
+}
+.return-button-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10px;
+}
+
+.return-button {
+    grid-column: 2;
+    width: 200px;
+    background-color: transparent;
+    border: 3px black solid;
+    color: black;
+}
+
+.return-button:hover {
+    border-color: red;
+    color: red;
+}
+
+.non-reg {
+    margin-top: 10px;
+    justify-self: center;
+    justify-content: center;
+}

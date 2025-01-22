@@ -1,0 +1,60 @@
+<div class="wrapper">
+    <div class="search-bar-wrapper">
+        <p class="search-text">Search for a song to add to your favorites</p>
+        <div class="search-bar">
+            <button class="logout-button" (click)="logout()"><i class="fa-solid fa-right-from-bracket fa-rotate-180 fa-xl" style="color: red;"></i></button>
+            <input type="text" placeholder="Song, Artist" [(ngModel)]="songName" class="song-input">
+            <button (click)="searchSong()" class="search-button"><i class="fa-solid fa-magnifying-glass fa-xl" style="color: white;"></i></button>
+            <button (click)="this.hasSearched = false; this.trackList = []" class="clean-search-button"><i class="fa-solid fa-broom fa-xl" style="color: white;"></i></button>
+        </div>
+    </div>
+    <div class="separ">
+        <br>
+    </div>
+    <div class="s-f-t-wrapper" *ngIf="hasSearched == true">
+        <h3 class="song-found-text">Found songs</h3>
+    </div>
+    <div class="song-q-wrapper" *ngIf="hasSearched == true">
+        <div *ngFor="let song of trackList" class="song-disp">
+            <img src="{{song.imageUrl}}" class="song-pic">  
+            <p class="song-name">{{song.name}}, {{song.artist}}</p>
+             <div class="button-wrapper">
+                <button (click)="addToFavorites(song)" class="add-fav-button btn btn-success"><i class="fa-solid fa-plus fa-xl" style="color: green;"></i></button>
+             </div>
+        </div>
+    </div>
+    <div class="song-q-wrapper favs">
+        <h2 class="fav-text">My favorites</h2>
+        <p class="no-fav-text" *ngIf="favList.length == 0">You haven't added any songs to your favorites yet.</p>
+        <div *ngFor="let song of favList" class="song-disp">
+            <img src="{{song.imageUrl}}" class="song-pic">
+            <p class="song-name">{{song.name}}, {{song.artist}}</p>
+            <div class="button-wrapper">
+                <button (click)="deleteFromFavorites(song)" class="delete-fav-button btn btn-danger"><i class="fa-solid fa-trash fa-xl" style="color: red;"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="profile-warning-wrapper" *ngIf="this.favList.length < 4">
+        <p class="warning"> <i class="fa-solid fa-circle-exclamation"></i> At least 4 songs are needed to generate a profile</p>
+    </div>
+    <div class="profile-button-wrapper" *ngIf="this.favList.length >= 4">
+        <button (click)="generateProfile()" class="profile-button btn">Generate profile</button>
+    </div>
+    <div *ngIf="!this.hasGenerated" style="background-color: greenyellow; height: 40vmax;"></div>
+    <div *ngIf="this.hasGenerated" class="profile-wrapper">
+        <p class="your-prof">Your profile is</p>
+        <p class="profile">{{this.generatedProfile}}</p>
+        <p class="your-tastes">Your main likes are</p>
+        <div class="tastes">
+            <p class="main-likes">{{this.tastes[0]}}</p>
+            <p class="main-likes">{{this.tastes[1]}}</p>
+            <p class="main-likes">{{this.tastes[2]}}</p>
+        </div>
+        <p class="your-suggestions">Based on the above, you might like</p>
+        <div class="suggestions">
+            <p class="suggs">{{this.suggestions[0]}}</p>
+            <p class="suggs">{{this.suggestions[1]}}</p>
+            <p class="suggs">{{this.suggestions[2]}}</p>
+        </div>
+    </div>
+</div>

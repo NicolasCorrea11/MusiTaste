@@ -1,0 +1,30 @@
+<div class="wrapper">
+    <div class="main-text">
+        <h1 class="main-text-h1">MusiTaste</h1>
+        <h4 class="main-text-h4">Discover what type of listener you are, your main likes, and receive recommendations.</h4>
+    </div>
+    <div class="not-signup" *ngIf="!this.global.isSigninUp">
+        <div class="container">
+            <div class="login-container">
+                <div class="login-text-wrapper">
+                    <p class="login-top-text">Log in</p>
+                </div>
+                <app-login></app-login>
+            </div>
+            <p class="non-reg">Not registered? <a (click)="this.global.isSigninUp = true; this.global.hasLoginError = false; this.global.loginErrorMessage = ''" href="#">Sign up.</a></p>
+        </div> 
+    </div>
+    <div class="yes-signup" *ngIf="this.global.isSigninUp">
+        <div class="container">
+            <div class="signup-container">
+                <div class="signup-text-wrapper">
+                    <p class="signup-top-text">Sign up</p>
+                </div>
+                <app-signup></app-signup>
+                <div class="return-button-wrapper">
+                    <button (click)="this.global.isSigninUp = false; this.global.hasSignupError = false; this.global.signupErrors = []" class="return-button btn">Back</button>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>

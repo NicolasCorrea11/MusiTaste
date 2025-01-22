@@ -1,0 +1,55 @@
+.button-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.login-button {
+    margin-top: 10px;
+    grid-column: 2;
+    width: 200px;
+    background-color: transparent;
+    border: 3px black solid;
+    color: black;
+}
+
+.user-icon {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.username-input  {
+    margin-top: 15px;
+}
+
+.password-icon {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.show-error-wrapper {
+    height: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 15px;
+}
+
+.error-text {
+    grid-column: 1;
+    align-self: center;
+    justify-self: center;
+    margin-top: 15px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login-button:hover {
+    border-color: white;
+    color: white;
+}
+
+.has-error .form-control {
+    border: 2px red solid
+}
+

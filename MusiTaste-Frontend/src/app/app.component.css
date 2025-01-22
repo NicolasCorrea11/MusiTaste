@@ -1,0 +1,22 @@
+.nav-button {
+    padding: 5px;
+    border-radius: 8px;
+    background-color: greenyellow;
+    color: black;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    width: 200px;
+    margin-right: 20px;
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.how {
+    grid-column: 7;
+    width: 90%;
+}

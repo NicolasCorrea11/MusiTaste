@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/Backendapimngr/apis/Backend",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/Backend20250104221142/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsdefaultConnection1_5BCF03A772",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/backenddbsqlserver/databases/Backend_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:defaultConnection1",
+      "dynamicId": null
+    }
+  }
+}

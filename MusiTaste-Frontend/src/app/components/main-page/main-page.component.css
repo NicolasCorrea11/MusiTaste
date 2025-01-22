@@ -1,0 +1,276 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.separ {
+    background-color: greenyellow;
+}
+
+.search-bar-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.search-text {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.logout-button {
+    margin-right: 20px;
+    border-radius: 50%;
+    height: 40px;
+    background-color: transparent;
+    border: 0px;
+}
+
+.search-bar {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.search-button {
+    margin-left: 20px;
+    border-radius: 50%;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.clean-search-button {
+    margin-left: 20px;
+    border-radius: 50%;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.song-input {
+    width: 500px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.song-q-wrapper {
+    background-color: greenyellow;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.s-f-t-wrapper {
+    background-color: greenyellow;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.song-found-text {
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.song-disp {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    background-color: white;
+    border: 3px black solid;
+    border-radius: 50px;
+    grid-column: 2;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.song-pic {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-self: center;
+    justify-self: center;
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    float: left; 
+    border-radius: 50%;
+}
+
+.song-name {
+    align-self: center;
+    justify-self: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+.button-wrapper {
+    align-self: center;
+    justify-self: center;
+    grid-column: 3;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.add-fav-button, .delete-fav-button {
+    grid-column: 3;
+    align-self: center;
+    justify-self: center;
+    border-radius: 50%;
+    background-color: transparent;
+    height: 50px;
+}
+
+.add-fav-button {
+    border: 2px solid green;
+}
+
+.delete-fav-button {
+    border: 2px solid red;
+}
+
+.fav-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.fav-text {
+    margin-top: 10px;
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+    color: white;
+}
+
+.no-fav-text {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+    color: white;
+}
+
+.fav-song-disp {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.favs {
+    background-color: black;
+}
+
+.profile-wrapper {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 5;
+    background-color: greenyellow;
+    column-gap: 20px;
+    padding-bottom: 300px;
+}
+
+.profile-button-wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: greenyellow;
+}
+
+.profile-button {
+    grid-column: 2;
+    border: 3px solid black;
+}
+
+.profile-button:hover {
+    border: 3px solid white;
+    color: white;
+}
+.profile {
+    align-self: center;
+    justify-self: center;
+    grid-column: 2;
+    grid-row: 2;
+    font-weight: 1000;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.tastes {
+    align-self: center;
+    justify-self: center;
+    grid-column: 3;
+    grid-row: 2;
+    font-weight: 1000;
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.suggestions {
+    align-self: center;
+    justify-self: center;
+    grid-column: 4;
+    grid-row: 2;
+    font-weight: 1000;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 30px;
+} 
+
+.your-prof {
+    align-self: center;
+    justify-self: center;
+    grid-column: 2;
+    grid-row: 1;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.your-tastes {
+    align-self: center;
+    justify-self: center;
+    grid-column: 3;
+    grid-row: 1;
+    padding-bottom: 10px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.your-suggestions {
+    align-self: center;
+    justify-self: center;
+    grid-column: 4;
+    grid-row: 1;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.suggs, .main-likes {
+    align-self: center;
+    justify-self: center;
+}
+
+.profile-warning-wrapper {
+    display: grid;
+    background-color: greenyellow;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.warning {
+    margin-top: 20px;
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+}
