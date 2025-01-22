@@ -9,7 +9,7 @@ MusiTaste es una aplicación web que te permite descubrir nueva música basada e
  - **Interfaz Intuitiva**: Navegación sencilla y amigable para una mejor experiencia de usuario.
 
 ### Tecnologías Utilizadas
- - **Frontend**: hecho en Angular con TypeScript, desplegado en Netlify.
+ - **Frontend**: Hecho en Angular con TypeScript, desplegado en Netlify.
  - **Backend**: Web API desarrollada en ASP.NET Core con C#, con base de datos SQL Server, ambas desplegadas en Microsoft Azure.
  - **Autenticacion:** Endpoints de la API autenticados con JWT.
  - **APIs de Terceros**: Consumo de la API de Spotify para la busqueda de canciones y de GeminiAI para las recomendaciones.
