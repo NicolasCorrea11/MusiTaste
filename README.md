@@ -6,7 +6,7 @@ MusiTaste es una aplicación web que te permite descubrir nueva música basada e
 ### Características
  - **Búsqueda de Artistas**: Encuentra artistas similares a tus favoritos.
  - **Recomendaciones Personalizadas**: Obtén sugerencias basadas en tus gustos musicales.
- - Interfaz Intuitiva: Navegación sencilla y amigable para una mejor experiencia de usuario.
+ - **Interfaz Intuitiva**: Navegación sencilla y amigable para una mejor experiencia de usuario.
 
 ### Tecnologías Utilizadas
  - **Frontend**: hecho en Angular con TypeScript, desplegado en Netlify.
