@@ -81,8 +81,8 @@ MusiTaste is a web application that allows you to discover new music based on yo
 - **Authentication**: API endpoints secured with JWT.  
 - **Third-Party APIs**: Uses the Spotify API for song search and GeminiAI for recommendations.  
 
-Website link: [https://musitaste.netlify.app](https://musitaste.netlify.app)  
-API documentation: [https://musitastebackend.azurewebsites.net/swagger/index.html](https://musitastebackend.azurewebsites.net/swagger/index.html)
+### Website link: [https://musitaste.netlify.app](https://musitaste.netlify.app)  
+### API documentation: [https://musitastebackend.azurewebsites.net/swagger/index.html](https://musitastebackend.azurewebsites.net/swagger/index.html)
 
 ---
 
