@@ -1,7 +1,7 @@
 ### Español:
 
 # MusiTaste
-MusiTaste es una aplicación web que te permite descubrir nueva música basada en tus preferencias actuales. Simplemente ingresa el nombre de un artista o banda, y la aplicación te dira tu perfil oyente y te sugerirá artistas similares que podrían gustarte.
+MusiTaste es una aplicación web que te permite descubrir nueva música basada en tus preferencias actuales. Simplemente ingresa el nombre de una cancion, agregala a favoritos y la aplicación te dira tu perfil oyente y te sugerirá artistas similares que podrían gustarte.
 
 ### Características
  - **Búsqueda de Artistas**: Encuentra artistas similares a tus favoritos.
@@ -66,7 +66,7 @@ ng serve
 
 # MusiTaste
 
-MusiTaste is a web application that allows you to discover new music based on your current preferences. Simply enter the name of an artist or band, and the app will reveal your listener profile and suggest similar artists you might like.
+MusiTaste is a web application that allows you to discover new music based on your current preferences. Simply enter the name of a song, add it to your favorites, and the application will identify your listener profile and suggest similar artists you might like.
 
 ### Features
 
