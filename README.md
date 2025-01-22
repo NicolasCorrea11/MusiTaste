@@ -35,7 +35,7 @@ dotnet restore
 dotnet build
 ```
  - Configura las variables de entorno necesarias, incluyendo la clave de la API de Spotify y GeminiAi, y la conexion a la base de datos.
- -Inicia el servidor:
+ - Inicia el servidor:
 ```
 dotnet run
 ```
