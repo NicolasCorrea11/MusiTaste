@@ -11,7 +11,7 @@
                 </div>
                 <app-login></app-login>
             </div>
-            <p class="non-reg">Not registered? <a (click)="this.global.isSigninUp = true; this.global.hasLoginError = false; this.global.loginErrorMessage = ''" href="#">Sign up.</a></p>
+            <p class="non-reg">Don’t have an account? <a (click)="this.global.isSigninUp = true; this.global.hasLoginError = false; this.global.loginErrorMessage = ''" href="#"> Sign up now.</a></p>
         </div> 
     </div>
     <div class="yes-signup" *ngIf="this.global.isSigninUp">
