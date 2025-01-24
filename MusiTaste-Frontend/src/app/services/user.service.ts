@@ -12,12 +12,14 @@ export class UserService {
 
   constructor(private http: HttpClient, private cookieService: CookieService) { }
 
+  myApiUrl = "https://musitastebackend.azurewebsites.net"
+
   signup(user: Credentials): Observable<any> {
-    return this.http.post("http://localhost:5292/api/Users/signup", user);
+    return this.http.post(`${this.myApiUrl}/api/Users/signup`, user);
   }
 
   login(user: Credentials): Observable<any> {
-    return this.http.post("http://localhost:5292/api/Users/login", user);
+    return this.http.post(`${this.myApiUrl}/api/Users/login`, user);
   }
 
   setToken(token: string): void {

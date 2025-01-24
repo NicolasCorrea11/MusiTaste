@@ -10,6 +10,8 @@ import { Observable } from 'rxjs';
 })
 export class SongService {
 
+  myApiUrl = "https://musitastebackend.azurewebsites.net"
+
   constructor(private http: HttpClient, private userService: UserService) { 
     this.headers = new HttpHeaders({
       'Authorization': `Bearer ${this.userService.getToken()}`
@@ -30,11 +32,11 @@ export class SongService {
       userId: uidint,
       song: song2
     }
-    return this.http.post("http://localhost:5292/api/Songs/AddFavorite", req, {headers: this.headers})
+    return this.http.post(`${this.myApiUrl}/api/Songs/AddFavorite`, req, {headers: this.headers})
   }
 
   showUserFavorites(id : number): Observable<Song[]> {
-    return this.http.get<Song[]>(`http://localhost:5292/api/Songs/GetFavorites?UserId=${id}`, {headers: this.headers});
+    return this.http.get<Song[]>(`${this.myApiUrl}/api/Songs/GetFavorites?UserId=${id}`, {headers: this.headers});
   }
 
   deleteFromFavorites(song: Song) {
@@ -49,7 +51,7 @@ export class SongService {
       userId: uidint,
       song: song2
     }
-    return this.http.post("http://localhost:5292/api/Songs/DeleteFavorites", req, {headers: this.headers});
+    return this.http.post(`${this.myApiUrl}/api/Songs/DeleteFavorites`, req, {headers: this.headers});
   }
 
 }

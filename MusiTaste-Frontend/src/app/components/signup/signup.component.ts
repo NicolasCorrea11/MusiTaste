@@ -34,7 +34,6 @@ export class SignupComponent {
     this.userInputError = false;
     this.passwordInputError = false;
     this.global.signupErrors = [];
-    this.global.signupErrors = [];
     if (this.signupForm.invalid) {
       this.global.hasSignupError = true;
       if (this.signupForm.get('username')?.invalid) {
@@ -57,7 +56,7 @@ export class SignupComponent {
         this.global.signupErrors = [];
       }, (error : HttpErrorResponse) => {
         this.global.hasSignupError = true;
-        this.global.signupErrors.push("Internal server error")
+        this.global.signupErrors.push(error.error.message);
       }
     );
   }

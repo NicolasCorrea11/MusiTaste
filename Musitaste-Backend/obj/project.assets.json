@@ -10894,11 +10894,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\corre\\Desktop\\MusiTaste\\Musitaste-Backend\\Backend.csproj",
+      "projectUniqueName": "C:\\Users\\corre\\Desktop\\Programacion\\side project summer'25 (MusiTaste)\\MusiTaste public\\MusiTaste-Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "C:\\Users\\corre\\Desktop\\MusiTaste\\Musitaste-Backend\\Backend.csproj",
+      "projectPath": "C:\\Users\\corre\\Desktop\\Programacion\\side project summer'25 (MusiTaste)\\MusiTaste public\\MusiTaste-Backend\\Backend.csproj",
       "packagesPath": "C:\\Users\\corre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\corre\\Desktop\\MusiTaste\\Musitaste-Backend\\obj\\",
+      "outputPath": "C:\\Users\\corre\\Desktop\\Programacion\\side project summer'25 (MusiTaste)\\MusiTaste public\\MusiTaste-Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
