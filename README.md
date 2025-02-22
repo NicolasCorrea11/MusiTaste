@@ -55,6 +55,7 @@ cd ../MusiTaste-Frontend
 ```
 npm install
 ```
+ - En src/app/services, cambia myApiUrl a tu direccion de localhost donde corra la api
  - Inicia la aplicación:
 ```
 ng serve
