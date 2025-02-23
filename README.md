@@ -41,6 +41,11 @@ dotnet restore
 dotnet build
 ```
  - Configura las variables de entorno necesarias, incluyendo la clave de la API de Spotify y GeminiAi, y la conexion a la base de datos.
+ - Migre el esquema de datos a su base de datos:
+```
+dotnet ef migrations add {nombre}
+dotnet ef database update
+```
  - Inicia el servidor:
 ```
 dotnet run
@@ -116,6 +121,11 @@ dotnet restore
 dotnet build
 ```
  - Configure the necessary environment variables, including the API keys for Spotify and GeminiAI, as well as the database connection.
+ - Migrate the data schema to your database:
+```
+dotnet ef migrations add {name}
+dotnet ef database update
+```
  - Start the server:
 ```
 dotnet run
@@ -130,6 +140,7 @@ cd ../MusiTaste-Frontend
 ```
 npm install
 ```
+- In src/app/services, change myApiUrl to your localhost address where the API is running.
 - Start the application:
 ```
 ng serve
