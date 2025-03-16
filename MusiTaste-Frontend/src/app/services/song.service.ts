@@ -10,7 +10,7 @@ import { Observable } from 'rxjs';
 })
 export class SongService {
 
-  myApiUrl = "https://musitastebackend.azurewebsites.net"
+  myApiUrl = "http://{your-localhost}"
 
   constructor(private http: HttpClient, private userService: UserService) { 
     this.headers = new HttpHeaders({

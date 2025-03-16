@@ -15,6 +15,6 @@ export class SpotifyService {
     const headers = new HttpHeaders({
       'Authorization': `Bearer ${this.userService.getToken()}`
     });
-    return this.http.get<Song[]>(`https://musitastebackend.azurewebsites.net/api/SpotifyAPI/getByName?songName=${songName}`, { headers: headers})
+    return this.http.get<Song[]>(`http://{your-localhost}/api/SpotifyAPI/getByName?songName=${songName}`, { headers: headers})
   }
 }

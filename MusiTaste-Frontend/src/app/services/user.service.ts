@@ -12,7 +12,7 @@ export class UserService {
 
   constructor(private http: HttpClient, private cookieService: CookieService) { }
 
-  myApiUrl = "https://musitastebackend.azurewebsites.net"
+  myApiUrl = "http://{your-localhost}"
 
   signup(user: Credentials): Observable<any> {
     return this.http.post(`${this.myApiUrl}/api/Users/signup`, user);

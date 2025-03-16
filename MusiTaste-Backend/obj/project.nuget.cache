@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pb/MYwwnHl4=",
+  "dgSpecHash": "CgrlKtxoLZk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\corre\\Desktop\\Programacion\\side project summer'25 (MusiTaste)\\MusiTaste public\\MusiTaste-Backend\\Backend.csproj",
+  "projectFilePath": "C:\\Users\\corre\\Desktop\\progra\\side project summer'25 (MusiTaste)\\MusiTaste public\\MusiTaste-Backend\\Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\corre\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\corre\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

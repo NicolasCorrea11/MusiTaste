@@ -10894,11 +10894,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\corre\\Desktop\\Programacion\\side project summer'25 (MusiTaste)\\MusiTaste public\\MusiTaste-Backend\\Backend.csproj",
+      "projectUniqueName": "C:\\Users\\corre\\Desktop\\progra\\side project summer'25 (MusiTaste)\\MusiTaste public\\MusiTaste-Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "C:\\Users\\corre\\Desktop\\Programacion\\side project summer'25 (MusiTaste)\\MusiTaste public\\MusiTaste-Backend\\Backend.csproj",
+      "projectPath": "C:\\Users\\corre\\Desktop\\progra\\side project summer'25 (MusiTaste)\\MusiTaste public\\MusiTaste-Backend\\Backend.csproj",
       "packagesPath": "C:\\Users\\corre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\corre\\Desktop\\Programacion\\side project summer'25 (MusiTaste)\\MusiTaste public\\MusiTaste-Backend\\obj\\",
+      "outputPath": "C:\\Users\\corre\\Desktop\\progra\\side project summer'25 (MusiTaste)\\MusiTaste public\\MusiTaste-Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10931,7 +10931,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -11001,7 +11001,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

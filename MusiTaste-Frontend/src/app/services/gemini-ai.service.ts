@@ -18,6 +18,6 @@ export class GeminiAiService {
     const headers = new HttpHeaders({
       'Authorization': `Bearer ${this.userService.getToken()}`
     });
-    return this.http.post<AiResponse>("https://musitastebackend.azurewebsites.net/api/GeminiAI", songs, {headers: headers}); 
+    return this.http.post<AiResponse>("https://{your-localhost}/api/GeminiAI", songs, {headers: headers}); 
   }
 }
