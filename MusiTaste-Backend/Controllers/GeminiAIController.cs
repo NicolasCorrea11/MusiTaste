@@ -17,7 +17,7 @@ namespace Backend.Controllers
         public GeminiAIController()
         {
             _Apikey = "YourApiKey";
-            _Model = new GenerativeModel(_Apikey);
+            _Model = new GenerativeModel(_Apikey,  model: "gemini-2.0-flash");
         }
 
         [HttpPost]
