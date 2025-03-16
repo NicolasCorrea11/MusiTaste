@@ -9,19 +9,17 @@ MusiTaste es una aplicación web que te permite descubrir nueva música basada e
  - **Interfaz Intuitiva**: Navegación sencilla y amigable para una mejor experiencia de usuario.
 
 ### Tecnologías Utilizadas
- - **Frontend**: Hecho en Angular, desplegado en Netlify.
+ - **Frontend**: Hecho en Angular.
  - **Backend**:
     - Web API desarrollada en ASP.NET Core con .NET 8.
     - Base de datos SQL Server.
     - Acceso a datos con Entity Framework Core, utilizando Patron Repositorio.
-    - Web API y BBDD desplegadas en Microsoft Azure.
     - **Autenticacion:**
        - Endpoints de la API autenticados con JWT.
     - **APIs de Terceros:**
        - Consumo de la API de Spotify para la busqueda de canciones y de GeminiAI para las recomendaciones.
 
-#### Link al sitio web: https://musitaste.netlify.app 
-#### Link a la documentacion de la Api: https://musitastebackend.azurewebsites.net/swagger/index.html
+#### Link a la documentacion de la Api: http://{tu-localhost}/swagger/index.html
 
 ---
 
@@ -87,19 +85,17 @@ MusiTaste is a web application that allows you to discover new music based on yo
 - **Intuitive Interface**: Simple and user-friendly navigation for a better experience.  
 
 ### Technologies Used
-- **Frontend**: Built with Angular, deployed on Netlify.
+- **Frontend**: Built with Angular.
 - **Backend**:
    - Web API developed in ASP.NET Core with .NET 8.
    - SQL Server database.
    - Data access implemented with Entity Framework Core, following the Repository Pattern.
-   - Web API and database deployed on Microsoft Azure.
    - **Authentication**:
       - API endpoints secured with JWT.
    - **Third-Party APIs**:
       - Integration with the Spotify API for song search and GeminiAI for recommendations.
 
-### Website link: [https://musitaste.netlify.app](https://musitaste.netlify.app)  
-### API documentation: [https://musitastebackend.azurewebsites.net/swagger/index.html](https://musitastebackend.azurewebsites.net/swagger/index.html)
+### API documentation: http://{your-localhost}/swagger/index.html
 
 ---
 
